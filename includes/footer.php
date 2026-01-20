@@ -1,6 +1,7 @@
 </main>
     <footer>
         <div class="copyright">
+            <p id="endereco">Av. Salgado Filho, Nº3501, Centro, Guarlhos - SP</p>
             <a href="index.php">
                 <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?>. Todos os direitos reservados.</p>
             </a>
