@@ -37,6 +37,23 @@
                             <span class="tag tag-soft">Resolução de problemas</span>
                         </div>
                     </div>
+
+                    <div class="tags-group">
+                        <h5 class="skills-title">Redes Sociais</h5>
+                        <div class="card-button">
+                            <button class="btn">
+                                <a href="https://www.linkedin.com/in/paulohenriquesadriani0881/">LinkedIn</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="tags-group">
+                        <h5 class="skills-title">Contato</h5>
+                        <div class="card-button">
+                                <p>E-mail: paulo.adriani@aluno.ifsp.edu.br</p>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="team-member-card">
