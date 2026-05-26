@@ -184,6 +184,41 @@ include 'includes/header.php'; ?>
                 </div>
             </div>
             <!-- Membro 5 -->
+
+            <!-- Membro 6 -->
+            <div class="team-member-card">
+                <img src="assets/images/membro6.jpg" alt="Foto do Integrante 6" class="member-photo">
+                <h4 class="member-name">Michael Santos</h4>
+                <p class="member-role">Desenvolvedor</p>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Hard Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-hard">Java</span>
+                        <span class="tag tag-hard">PHP</span>
+                        <span class="tag tag-hard">SQL</span>
+                        <span class="tag tag-hard">Docker</span>
+                        <span class="tag tag-hard">Next.js</span>
+                        <span class="tag tag-hard">Git/Github</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Soft Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-soft">Adaptabilidade</span>
+                        <span class="tag tag-soft">Trabalho em Equipe</span>
+                        <span class="tag tag-soft">Pensamento Analítico</span>
+                        <span class="tag tag-soft">Proatividade</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Redes Sociais</h5>
+                    <a href="https://www.linkedin.com/in/wazmike/" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 6 -->
         </div>
     </div>
 </section>
