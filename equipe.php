@@ -1,168 +1,189 @@
-<?php define('PAGE_TITLE', 'Equipe'); include 'includes/header.php'; ?>
+<?php define('PAGE_TITLE', 'Equipe');
+include 'includes/header.php'; ?>
 
 <section class="section-padding">
     <div class="container">
-        <h2 class="section-title">Quem somos?</h2>
+        <h2 class="section-title">
+            Quem somos?
+        </h2>
         <div style="padding: 1.4rem; border-radius: 8px; margin-bottom: 3rem; text-align: center;">
             <p style="font-size: 1.1rem; font-weight: 400; color: var(--text-color)">
                 Somos uma equipe apaixonada por tecnologia e empreendedorismo. Construímos o futuro ao lado de fundadores visionários.
             </p>
         </div>
+    </div>
 
-        <div class="team-carousel-container">
-            <div class="team-carousel-inner" id="carouselInner">
-                
-                <div class="team-member-card">
-                    <img src="assets/images/membro1.png" alt="Foto do Integrante 1" class="member-photo">
-                    <h4 class="member-name">Paulo Adriani</h1></h4>
-                    <p class="member-role">Scrum Master/Líder</p>
+    <div class="team-carousel-container">
+        <div class="team-carousel-inner" id="carouselInner">
+            <!-- Membro 1 -->
+            <div class="team-member-card">
+                <img src="assets/images/membro1.png" alt="Foto do Integrante 1" class="member-photo">
+                <h4 class="member-name">João Pedro</h4>
+                <p class="member-role">Scrum Master/Líder</p>
 
-                   <div class="tags-group">
-                        <h5 class="skills-title">Hard Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-hard">C</span>
-                            <span class="tag tag-hard">HTML</span>
-                            <span class="tag tag-hard">CSS</span>
-                            <span class="tag tag-hard">Python</span>
-                            <span class="tag tag-hard">MySQL</span>
-                            <span class="tag tag-hard">Git/Github</span>
-                        </div>
-                    </div>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Soft Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-soft">Trabalho em equipe</span>
-                            <span class="tag tag-soft">Proatividade</span>
-                            <span class="tag tag-soft">Resolução de problemas</span>
-                        </div>
-                    </div>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Redes Sociais</h5>
-                        <div class="card-button">
-                            <button class="btn">
-                                <a href="https://www.linkedin.com/in/paulohenriquesadriani0881/">LinkedIn</a>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Contato</h5>
-                        <div class="card-button">
-                                <p>E-mail: paulo.adriani@aluno.ifsp.edu.br</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="team-member-card">
-                    <img src="assets/images/membro2.png" alt="Foto do Integrante 2" class="member-photo">
-                    <h4 class="member-name">Thiago Moraes</h4>
-                    <p class="member-role">Scrum Master/Suplente</p>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Hard Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-hard">Java</span>
-                            <span class="tag tag-hard">Python</span>
-                            <span class="tag tag-hard">Git/Github</span>
-                            <span class="tag tag-hard">JavaScript</span>
-                            <span class="tag tag-hard">HTML</span>
-                            <span class="tag tag-hard">CSS</span>
-                        </div>
-                    </div>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Soft Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-soft">Paciência</span>
-                            <span class="tag tag-soft">Comunicação</span>
-                            <span class="tag tag-soft">Resolução de conflitos</span>
-                        </div>
+                <div class="tags-group">
+                    <h5 class="skills-title">Hard Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-hard">C</span>
+                        <span class="tag tag-hard">HTML</span>
+                        <span class="tag tag-hard">CSS</span>
+                        <span class="tag tag-hard">Python</span>
+                        <span class="tag tag-hard">MySQL</span>
+                        <span class="tag tag-hard">Git/Github</span>
                     </div>
                 </div>
 
-                <div class="team-member-card">
-                    <img src="assets/images/membro3.jpeg" alt="Foto do Integrante 3" class="member-photo">
-                    <h4 class="member-name">Nicole Morais</h4>
-                    <p class="member-role">Desenvolvedora</p>
-
-                     <div class="tags-group">
-                        <h5 class="skills-title">Hard Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-hard">Python</span>
-                            <span class="tag tag-hard">SQL/NoSQL</span>
-                            <span class="tag tag-hard">PHP</span>
-                            <span class="tag tag-hard">Git/Github</span>
-                            <span class="tag tag-hard">UX Design</span>
-                            <span class="tag tag-hard">Java</span>
-                        </div>
-                    </div>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Soft Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-soft">Adaptabilidade</span>
-                            <span class="tag tag-soft">Pensamento analítico</span>
-                            <span class="tag tag-soft">Inteligência emocional</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="team-member-card">
-                    <img src="assets/images/membro4.jpeg" alt="Foto do Integrante 4" class="member-photo">
-                    <h4 class="member-name">Eduardo Costa</h4>
-                    <p class="member-role">Desenvolvedor</p>
-                   <div class="tags-group">
-                        <h5 class="skills-title">Hard Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-hard">C</span>
-                            <span class="tag tag-hard">HTML</span>
-                            <span class="tag tag-hard">Git/Github</span>
-                            <span class="tag tag-hard">CSS</span>
-                            <span class="tag tag-hard">SQL</span>
-                        </div>
-                    </div>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Soft Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-soft">Comunicação</span>
-                            <span class="tag tag-soft">Proatividade</span>
-                            <span class="tag tag-soft">Organização</span>
-                            <span class="tag tag-soft">Pragmatismo</span>
-                        </div>
+                <div class="tags-group">
+                    <h5 class="skills-tile">Soft Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-soft">Trabalho em equipe</span>
+                        <span class="tag tag-soft">Proatividade</span>
+                        <span class="tag tag-soft">Resolução de problemas</span>
                     </div>
                 </div>
 
-                <div class="team-member-card">
-                    <img src="assets/images/membro5.png" alt="Foto do Integrante 5" class="member-photo">
-                    <h4 class="member-name">Luis Siqueira</h4>
-                    <p class="member-role">Desenvolvedor</p>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Hard Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-hard">Java</span>
-                            <span class="tag tag-hard">Python</span>
-                            <span class="tag tag-hard">C</span>
-                            <span class="tag tag-hard">SQL</span>
-                            <span class="tag tag-hard">Git/Github</span>
-                            <span class="tag tag-hard">JavaScript</span>
-                        </div>
-                    </div>
-
-                    <div class="tags-group">
-                        <h5 class="skills-title">Soft Skills</h5>
-                        <div class="tags-container">
-                            <span class="tag tag-soft">Senso de urgência</span>
-                            <span class="tag tag-soft">Pragmatismo</span>
-                            <span class="tag tag-soft">Senso de responsabilidade</span>
-                        </div>
-                    </div>
+                <div class="tags-group">
+                    <h5 class="skills-title">Redes Sociais</h5>
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-bezerra-30b8762a3/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
             </div>
+            <!-- Membro 1 -->
+
+            <!-- Membro 2 -->
+            <div class="team-member-card">
+                <img src="assets/images/membro2.png" alt="Foto do Integrante 2" class="member-photo">
+                <h4 class="namber-name">Thiago Moraes</h4>
+                <p class="member-role">Scrum Master/Suplente</p>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Hard Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-hard">Java</span>
+                        <span class="tag tag-hard">Python</span>
+                        <span class="tag tag-hard">Git/Github</span>
+                        <span class="tag tag-hard">JavaScript</span>
+                        <span class="tag tag-hard">HTML</span>
+                        <span class="tag tag-hard">CSS</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Soft Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-soft">Paciência</span>
+                        <span class="tag tag-soft">Comunicação</span>
+                        <span class="tag tag-soft">Resolução de conflitos</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Redes Sociais</h5>
+                    <a href="https://www.linkedin.com/in/thivgox/" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 2 -->
+
+            <!-- Membro 3 -->
+            <div class="team-member-card">
+                <img src="assets/images/membro3.jpg" alt="Foto do Integrante 3" class="member-photo">
+                <h4 class="member-name">Nicole Morais</h4>
+                <p class="member-role">Desenvolvedora</p>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Hard Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-hard">Python</span>
+                        <span class="tag tag-hard">SQL/NoSQL</span>
+                        <span class="tag tag-hard">PHP</span>
+                        <span class="tag tag-hard">Git/Github</span>
+                        <span class="tag tag-hard">UX Design</span>
+                        <span class="tag tag-hard">Java</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Soft Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-soft">Adaptabilidade</span>
+                        <span class="tag tag-soft">Pensamento analítico</span>
+                        <span class="tag tag-soft">Inteligência emocional</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Redes Sociais</h5>
+                    <a href="https://www.linkedin.com/in/nicolemrs/" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 3 -->
+
+            <!-- Membro 4 -->
+            <div class="team-member-card">
+                <img src="assets/images/membro4.jpeg" alt="Foto do Integrante 4" class="member-photo">
+                <h4 class="member-name">Eduardo Costa</h4>
+                <p class="member-role">Desenvolvedor</p>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Hard Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-hard">C</span>
+                        <span class="tag tag-hard">HTML</span>
+                        <span class="tag tag-hard">Git/Github</span>
+                        <span class="tag tag-hard">CSS</span>
+                        <span class="tag tag-hard">SQL</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Soft Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-soft">Comunicação</span>
+                        <span class="tag tag-soft">Proatividade</span>
+                        <span class="tag tag-soft">Organização</span>
+                        <span class="tag tag-soft">Pragmatismo</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Redes Sociais</h5>
+                    <a href="https://www.linkedin.com/in/eduardo-silva-costa-2844a426a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 4 -->
+
+            <!-- Membro 5 -->
+            <div class="team-member-card">
+                <img src="assets/images/membro5.png" alt="Foto do Integrante 5" class="member-photo">
+                <h4 class="member-name">Luis Siqueira</h4>
+                <p class="member-role">Desenvolvedor</p>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Hard Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-hard">Java</span>
+                        <span class="tag tag-hard">Python</span>
+                        <span class="tag tag-hard">C</span>
+                        <span class="tag tag-hard">SQL</span>
+                        <span class="tag tag-hard">Git/Github</span>
+                        <span class="tag tag-hard">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Soft Skills</h5>
+                    <div class="tags-container">
+                        <span class="tag tag-soft">Senso de urgência</span>
+                        <span class="tag tag-soft">Pragmatismo</span>
+                        <span class="tag tag-soft">Senso de responsabilidade</span>
+                    </div>
+                </div>
+
+                <div class="tags-group">
+                    <h5 class="skills-title">Redes Sociais</h5>
+                    <a href="" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 5 -->
         </div>
     </div>
 </section>
@@ -170,7 +191,7 @@
 <section class="section-padding">
     <div class="container">
         <h2 class="section-title">Análise Estratégica (SWOT)</h2>
-    
+
         <div class="swot-grid">
             <div class="swot-item swot-s">
                 <h3>Forças (Strengths)</h3>
@@ -216,6 +237,4 @@
         </div>
     </div>
 </section>
-
-
 <?php include 'includes/footer.php'; ?>
