@@ -14,6 +14,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         <li><a href="sobre.php" class="<?php echo $current_page == 'sobre.php' ? 'active' : ''; ?>">Sobre nós</a></li>
         <li><a href="equipe.php" class="<?php echo $current_page == 'equipe.php' ? 'active' : ''; ?>">Equipe</a></li>
         <li><a href="index.php#contato" class="<?php echo $current_page == 'contato.php' ? 'active' : ''; ?>">Contato</a></li>
+        <li><a href="demandante.php" class="<?php echo $current_page == 'demandante.php' ? 'active' : ''; ?>">Demandante</a></li>
     </ul>
 
     <div class="hamburger" id="hamburger">
